@@ -163,7 +163,7 @@ const ServiceItem = ({ service, barbershop, isAuthenticated }: ServiceItemProps)
                     <SheetTitle>Fazer Reserva</SheetTitle>
                   </SheetHeader>
 
-                  <div className="py-4">
+                  <div className="py-2">
                     <Calendar
                       mode="single"
                       selected={date}
