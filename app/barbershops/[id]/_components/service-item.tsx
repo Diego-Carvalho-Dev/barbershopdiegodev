@@ -212,7 +212,7 @@ const ServiceItem = ({ service, barbershop, isAuthenticated }: ServiceItemProps)
                     </div>
                   )}
 
-                  <div className="py-4 px-3 border-t border-solid border-secondary">
+                  <div className="py-2 px-2 border-t border-solid border-secondary">
                     <BookingInfo
                       booking={{
                         barbershop: barbershop,
