@@ -1,0 +1,9 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/(home)/page": "app/(home)/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/barbershops/[id]/page": "app/barbershops/[id]/page.js",
+  "/barbershops/page": "app/barbershops/page.js",
+  "/bookings/page": "app/bookings/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
