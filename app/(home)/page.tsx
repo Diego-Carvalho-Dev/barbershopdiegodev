@@ -39,17 +39,17 @@ export default async function Home() {
       <Header />
 
       <div className="px-5 pt-5">
-        <h2 className="text-xl font-bold">
+        <h2 className="text-xl font-boldx ">
           {session?.user ? `Olá, ${session.user.name?.split(" ")[0]}!` : "Olá! Vamos agendar um corte hoje?"}
         </h2>
-        <p className="capitalize text-sm">
+        <p className="capitalize text-sm text-yellow-500 ">
           {format(new Date(), "EEEE',' dd 'de' MMMM", {
             locale: ptBR,
           })}
         </p>
       </div>
 
-      <div className="px-5 mt-6">
+      <div className="px-5 mt-6 ">
         <Search />
       </div>
 
@@ -91,4 +91,4 @@ export default async function Home() {
       </div>
     </div>
   );
-}
+} 
