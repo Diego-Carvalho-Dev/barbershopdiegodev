@@ -12,12 +12,11 @@ const Header = () => {
   return (
     <header>
       <Card>
-        <CardContent className="p-5 justify-between items-center flex flex-row">
-          <Link href="/">
-            {/* <Image src="/logo.png" alt="FSW Barber" height={18} width={120} /> */}
-            <h2>Sua Logo aqui!</h2>
-          </Link>
+        <CardContent className="bg-black p-5 justify-between items-center flex flex-row">
           <Sheet>
+          <Link href="/">
+            <Image className="absolute top-0 rounded-2xl pt-1" src="/logo.png" alt="Barbearia DiegoDev" height={38} width={70} />
+          </Link>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon">
                 <MenuIcon size={16} />
